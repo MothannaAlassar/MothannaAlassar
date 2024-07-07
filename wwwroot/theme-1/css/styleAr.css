@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", Calibri;
     color: #272829;
     direction: rtl;
 }
@@ -336,12 +336,13 @@ section {
   height: 3px;
   background: #149ddd;
   bottom: 0;
-  left: 0;
+  right: 0;
 }
 
-.section-title p {
-  margin-bottom: 0;
-}
+    .section-title p {
+        margin-bottom: 0;
+        font-weight: bold;
+    }
 
 /*--------------------------------------------------------------
 # About
@@ -1105,39 +1106,3 @@ section {
   }
 }
 
-
-/*here new*/
-
-/* General RTL Direction */
-body, input, textarea, select, button {
-    direction: rtl;
-    text-align: right;
-}
-
-/* RTL Alignment for Navigation Menus */
-
-
-/* RTL Alignment for Content */
-main, aside {
-    float: right;
-}
-
-/* RTL Alignment for Form Elements */
-form label {
-    float: right;
-    margin-right: 0;
-    margin-left: 10px;
-}
-
-form input, form textarea, form select {
-    float: right;
-}
-
-/* RTL Alignment for Tables */
-table {
-    text-align: right;
-}
-
-    table th, table td {
-        text-align: right;
-    }
