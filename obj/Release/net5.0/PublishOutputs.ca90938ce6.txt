@@ -37,6 +37,12 @@ F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\css\style.css
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\css\styleAr.css
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\Accountant\main.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\Accountant\sale.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\Accountant\sale1.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\Accountant\transfer.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\Accountant\transfer1.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\Accountant\transfer3.png
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\apple-touch-icon.png
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\favicon.png
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\hero-bg.jpeg
@@ -45,6 +51,15 @@ F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\im
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\language.svg
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\profile-img - Copy.jpeg
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\profile-img.jpeg
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\school\degreescreen1.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\school\login.jpeg
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\school\login00.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\school\mainscreen.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\school\report1.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\school\report2.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\school\resultreport1.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\school\studentPrintScreen.png
+F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\img\school\studentscreen.png
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\js\main.js
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\scss\Readme.txt
 F:\AppForGithub\MothannaAlassar\obj\Release\net5.0\PubTmp\Out\wwwroot\theme-1\vendor\aos\aos.cjs.js
