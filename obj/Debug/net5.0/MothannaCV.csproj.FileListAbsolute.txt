@@ -53,7 +53,6 @@ F:\AppForGithub\MothannaAlassar\bin\Debug\net5.0\ref\MothannaCV.dll
 F:\AppForGithub\MothannaAlassar\bin\Debug\net5.0\MothannaCV.pdb
 F:\AppForGithub\MothannaAlassar\bin\Debug\net5.0\MothannaCV.Views.dll
 F:\AppForGithub\MothannaAlassar\bin\Debug\net5.0\MothannaCV.Views.pdb
-F:\AppForGithub\MothannaAlassar\obj\Debug\net5.0\MothannaCV.csproj.AssemblyReference.cache
 F:\AppForGithub\MothannaAlassar\obj\Debug\net5.0\MothannaCV.GeneratedMSBuildEditorConfig.editorconfig
 F:\AppForGithub\MothannaAlassar\obj\Debug\net5.0\MothannaCV.AssemblyInfoInputs.cache
 F:\AppForGithub\MothannaAlassar\obj\Debug\net5.0\MothannaCV.AssemblyInfo.cs
@@ -85,3 +84,4 @@ F:\AppForGithub\MothannaAlassar\obj\Debug\net5.0\ref\MothannaCV.dll
 F:\AppForGithub\MothannaAlassar\obj\Debug\net5.0\MothannaCV.pdb
 F:\AppForGithub\MothannaAlassar\obj\Debug\net5.0\MothannaCV.genruntimeconfig.cache
 F:\AppForGithub\MothannaAlassar\obj\Debug\net5.0\MothannaCV.csproj.CopyComplete
+F:\AppForGithub\MothannaAlassar\obj\Debug\net5.0\MothannaCV.csproj.AssemblyReference.cache
