@@ -1,15 +1,17 @@
 ﻿<!DOCTYPE html>
 @{ 
-      Layout = "~/Views/Shared/_LayoutAr.cshtml";
+    Layout = "~/Views/Shared/_LayoutAr.cshtml";
     var year = DateTime.Now.Year - 1992;
+    ViewData["Title"] = "الرئيسية";
 }
 <html lang="en">
 
 <body>
 
-   
-  
-   
+    <h1 class="page-header-hidden">مثنى العصار</h1>
+
+
+
     <main id="main">
 
         <!-- ======= About Section ======= -->
@@ -95,7 +97,18 @@
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-
+                        <div class="progress">
+                            <span class="skill">Xamarin <i class="val">50%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">RDLC Reports <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -120,7 +133,18 @@
                                 <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-
+                        <div class="progress">
+                            <span class="skill">Git Extensions <i class="val">50%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">IIS <i class="val">50%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -134,7 +158,7 @@
                 @*<div class="section-title">
                     <h2>Resume</h2>
                     <p>
-                    
+
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>*@
 
@@ -143,22 +167,48 @@
                         <h3 class="resume-title">ملخص</h3>
                         <div class="resume-item pb-0">
                             <h4>مثنى العصار</h4>
-                            <p><em>
-    أنا مطور ويب لدي أكثر من 6 سنوات من الخبرة في تطوير مواقع التجارة الإلكترونية الموجهة للمستخدم من المفهوم الأولي إلى التسليم النهائي المصقول. 
-</em></p>
-                            
+                            <p>
+                                <em>
+                                    أنا مطور دوت نت لدي أكثر من 6 سنوات من الخبرة في تطوير في مجال تطوير البرمجات باستخدام الدوت نت.
+                                </em>
+                            </p>
+
                         </div>
 
                         <h3 class="resume-title">التعليم</h3>
-                        
+
                         <div class="resume-item">
                             <h4>بكالريوس نظم معلومات</h4>
                             <h5>2014 - 2017</h5>
                             <p><em>جامعة صنعاء-صنعاء-اليمن</em></p>
                             <p>
-
                                 شهادة الشكر والتقدير مع مرتبة الشرف، كلية علوم الحاسوب وتكنولوجيا المعلومات، جامعة صنعاء 2017.
                             </p>
+                        </div>
+                        <h3 class="resume-title">آخر المشاريع</h3>
+                        <div class="resume-item">
+                            <h4>متجر لافند | شركة كندا هاي تك</h4>
+                            <h5>2024</h5>
+                            <p>
+                                عبارة عن متجر لبيع العطور وادوات التجميل
+                            </p>
+                            <a href="https://www.lavender.iq/">تصفح الموقع</a>
+                        </div>
+                        <div class="resume-item">
+                            <h4>متجر الشهيرة | شركة كندا هاي تك</h4>
+                            <h5>2024</h5>
+                            <p>
+                                متجر لبيع ادوات المكياج والعناية بالبشرة
+                            </p>
+                            <a href="https://www.alshaheera.com/">تصفح الموقع</a>
+                        </div>
+                        <div class="resume-item">
+                            <h4>معرض الكرة | شركة كندا هاي تك</h4>
+                            <h5>2024</h5>
+                            <p>
+                                موقع لعرض الاخبار المتعلقة بالرياضة
+                            </p>
+                            <a href="https://footballgallery.net/">تصفخ الموقع</a>
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -172,7 +222,7 @@
                                 <li>مطور الخلفية لانظمة التجارة الالكترونية</li>
                                 <li>مطور الحلفية للبرامج والربط مع بوابات الدفع الالكتروني </li>
                                 <li>المشاركة في إيجاد الحلول، اتخاذ القرارات، تقديم المقترحات والأفكار الفنية لنجاح العمل.</li>
-                                
+
                             </ul>
                         </div>
                         <div class="resume-item">
@@ -190,12 +240,135 @@
                                 <li>المسؤول عن ضبط وتحسين استعلامات sql لضمان استؤجاع البيانات بكفاءة</li>
                             </ul>
                         </div>
-                       
+
                     </div>
                 </div>
 
             </div>
         </section><!-- End Resume Section -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>تطبيقات سطح المكتب</h2>
+                    <ul>
+                        <li>النظام المحاسبي </li>
+                        <li>
+                            نظام المدارس
+                        </li>
+                        <li>نظام الصرافة والحوالات المالية </li>
+                    </ul>
+                </div>
+
+                @*<div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-app">App</li>
+                            <li data-filter=".filter-card">Card</li>
+                            <li data-filter=".filter-web">Web</li>
+                        </ul>
+                    </div>
+                </div>*@
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="/theme-1/img/school/login00.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="/theme-1/img/school/login00.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="/theme-1/img/school/report1.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="/theme-1/img/school/report1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="/theme-1/img/school/report2.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="/theme-1/img/school/report2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="/theme-1/img/school/resultreport1.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="/theme-1/img/school/resultreport1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="/theme-1/img/Accountant/main.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="/theme-1/img/Accountant/main.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="/theme-1/img/Accountant/sale.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="/theme-1/img/Accountant/sale.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="theme-1/img/Accountant/sale1.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="/theme-1/img/Accountant/sale1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="/theme-1/img/Accountant/transfer1.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="/theme-1/img/Accountant/transfer1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="/theme-1/img/Accountant/transfer3.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="/theme-1/img/Accountant/transfer3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container">
@@ -226,7 +399,7 @@
                                 <h4>اتصال:</h4>
                                 <p><a href="tel:+971522252803">+971 522252803</a></p>
                             </div>
-                            
+
                             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3609.5123778216653!2d55.4218939240695!3d25.219661830789473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDEzJzEwLjgiTiA1NcKwMjUnMDkuNiJF!5e0!3m2!1sar!2sae!4v1718572186166!5m2!1sar!2sae" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
                         </div>
 
@@ -267,7 +440,7 @@
         </section><!-- End Contact Section -->
 
     </main><!-- End #main -->
-   
+
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
